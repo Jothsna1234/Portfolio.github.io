@@ -4,6 +4,7 @@
 
 body{
   font-family: 'Inter',sans-serif;
+  overflow-x: hidden;
 }
 
 .dark{
@@ -13,6 +14,7 @@ body{
 
 html{
   scroll-behavior: smooth ;
+  overflow-x: hidden;
 }
 
 .star-shape{

@@ -35,11 +35,18 @@ const App = () => {
     document.documentElement.classList.toggle('dark');
   };
   return (
-   <div
+  //  <div
+  // className={
+  //   darkMode
+  //     ? 'bg-linear-to-br from-gray-900 via-[#0d182e] to-gray-900 min-h-screen'
+  //     : 'bg-linear-to-br from-gray-50 to-blue-50 min-h-screen'
+  // }>
+  <div
   className={
-    darkMode
-      ? 'bg-linear-to-br from-gray-900 via-[#0d182e] to-gray-900 min-h-screen'
-      : 'bg-linear-to-br from-gray-50 to-blue-50 min-h-screen'
+    (darkMode
+      ? 'bg-linear-to-br from-gray-900 via-[#0d182e] to-gray-900'
+      : 'bg-linear-to-br from-gray-50 to-blue-50'
+    ) + ' min-h-screen overflow-x-hidden'
   }>
       <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode}/>
 <Hero  darkMode={darkMode}/>
