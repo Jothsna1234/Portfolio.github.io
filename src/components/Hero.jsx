@@ -91,7 +91,8 @@ const Hero = ({darkMode}) => {
           data-aos='fade-up'
           data-aos-delay='700'>
            <a
-  href="https://drive.google.com/uc?export=download&id=1AoT8iShHl-AiHFKFUYz1vWc709SN7QGr"
+  href="https://drive.google.com/file/d/1AgMvhMhpzMf3YqYhvJc1esA84AA-qN62/view?usp=sharing"
+  
   className="w-full sm:w-auto"
 >
               <button className='w-full sm:w-auto inline-flex items-center justify-center text-white bg-linear-to-r from-orange-500 to-amber-500 border-0 py-3 px-6 sm:px-8 hover:shadow-[0_0_40px_rgb(255,165,0,0.7)] rounded-full text-base sm:text-lg font-semibold transition-all duration-300 transform'>
