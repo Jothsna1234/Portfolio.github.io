@@ -10,8 +10,8 @@ const About = ({darkMode}) => {
                 data-aos='fade-up'
                 data-aos-delay='300'
                 className="flex flex-wrap justify-center gap-4 relative order-2 lg:order-1">
-                    {/* <div className="relative w-75 h-75 lg:w-96 lg:h-96"> */}
-                    <div className="relative w-72 h-72 lg:w-96 lg:h-96 overflow-hidden">
+                    <div className="relative w-75 h-75 lg:w-96 lg:h-96">
+                    {/* <div className="relative w-72 h-72 lg:w-96 lg:h-96 overflow-hidden"> */}
                         {/* Image */}
                       <div className="absolute inset-0 scale-110 bg-linear-to-l from-[#f97316] via-[#fb923c] to-[#f59e0b] 
                       rotate-12 star-shape z-0 overflow-hidden"
